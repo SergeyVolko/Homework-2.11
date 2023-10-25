@@ -26,7 +26,7 @@ public class BasketController {
     public List<Integer> get() {
         return serviceBasket.get();
     }
-
+    @GetMapping
     public String test() {
         return "TEST";
     }
